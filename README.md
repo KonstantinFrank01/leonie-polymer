@@ -1,5 +1,5 @@
 # Website über Leonie
-## mit GatsbyJS 
+## mit Polymer 
 ### von Konstantin Frank und David Andraschko
 
 Unsere Aufgabe ist es drei kleine Webseiten, jeweils eine mit GatsbyJS, React und Polymer Project zu erstellen.
