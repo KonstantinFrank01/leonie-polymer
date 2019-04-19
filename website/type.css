@@ -1,0 +1,15 @@
+#firstLine {
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: white;
+}
+#type {
+  position: absolute;
+  top: 53%;
+  left: 3%;
+}

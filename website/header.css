@@ -1,0 +1,36 @@
+img {
+  margin: -8px;
+  position: absolute;
+  top: 5.5%;
+  height: 780px;
+  width: 1920px;
+  z-index: -1;
+}
+
+#first {
+  float: right;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  font-family: "Segoe UI Emoji";
+  position: absolute;
+  right: 1%;
+}
+
+#second {
+  float: right;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  font-family: "Segoe UI Emoji";
+  position: absolute;
+  right: 7%;
+}
+
+#first:hover {
+  text-decoration: underline;
+}
+
+#second:hover {
+  text-decoration: underline;
+}

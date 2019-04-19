@@ -1,0 +1,32 @@
+.social-icons {
+  text-align: center;
+}
+.social-icons li {
+  display: inline-block;
+  list-style-type: none;
+}
+.social-icons li a {
+  border-bottom: none;
+}
+.social-icons li img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+#social-media {
+  text-align: center;
+}
+
+#htl {
+  font-family: "Segoe UI Emoji";
+
+  text-align: center;
+}
+
+#footerbox {
+  position: absolute;
+  top: 250%;
+
+  left: 42%;
+}

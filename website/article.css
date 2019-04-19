@@ -1,0 +1,44 @@
+#box {
+  width: 1110px;
+  height: 1468px;
+  background-color: white;
+  position: absolute;
+  top: 90%;
+  left: 20%;
+}
+
+#article1 {
+  height: 580px;
+  width: 450px;
+  background-color: grey;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+
+#article2 {
+  height: 580px;
+  width: 450px;
+  background-color: grey;
+  position: absolute;
+  left: 55%;
+  top: 10%;
+}
+
+#article3 {
+  height: 580px;
+  width: 450px;
+  background-color: grey;
+  position: absolute;
+  left: 5%;
+  top: 55%;
+}
+
+#article4 {
+  height: 580px;
+  width: 450px;
+  background-color: grey;
+  position: absolute;
+  left: 55%;
+  top: 60%;
+}
