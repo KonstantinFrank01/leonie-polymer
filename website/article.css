@@ -42,3 +42,45 @@
   left: 55%;
   top: 60%;
 }
+
+#white1 {
+  background-color: white;
+  height: 135px;
+  width: 350px;
+  position: absolute;
+  top: 77%;
+  text-align: center;
+}
+
+#white2 {
+  background-color: white;
+  height: 135px;
+  width: 350px;
+  position: absolute;
+  top: 77%;
+  text-align: center;
+}
+
+#white3 {
+  background-color: white;
+  height: 135px;
+  width: 350px;
+  position: absolute;
+  top: 77%;
+  text-align: center;
+}
+
+#white4 {
+  background-color: white;
+  height: 135px;
+  width: 350px;
+  position: absolute;
+  top: 77%;
+  text-align: center;
+}
+
+.title {
+  color: #004853;
+  font-size: 1.36rem;
+  font-family: "Segoe UI Emoji";
+}
