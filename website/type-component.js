@@ -6,7 +6,7 @@ class TypeffectComponent extends LitElement {
       <link rel="stylesheet" href="type.css" />
       <div id="type">
         <p id="firstLine">Hallo, mein Name ist Leonie!</p>
-        <p>
+        <p id="secondLine">
           Ich bin ein digitaler Spracherkennungs-Avatar<br />
           und wurde von den Schülern<br />
           der HTl Leonding entwickelt.
