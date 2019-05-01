@@ -9,54 +9,53 @@
 }
 
 #overlay1 {
-  width: 450px;
-  height: 580px;
+  width: 448px;
+  height: 578px;
   background-color: #f63700;
-  transition: 0.1s ease;
-  z-index: 100;
   position: absolute;
-  left: 5%;
-  top: 5%;
+  left: 5.1%;
+  top: 5.05%;
   opacity: 0.85;
+  display: none;
 }
 
 #overlay2 {
-  width: 450px;
-  height: 580px;
+  width: 448px;
+  height: 578px;
   background-color: #f63700;
   transition: 0.1s ease;
-  z-index: 100;
   position: absolute;
-  left: 55%;
-  top: 10%;
+  left: 55.1%;
+  top: 10.05%;
   opacity: 0.85;
+  display: none;
 }
 
 #overlay3 {
-  width: 450px;
-  height: 580px;
+  width: 448px;
+  height: 578px;
   background-color: #f63700;
   transition: 0.1s ease;
-  z-index: 100;
   position: absolute;
-  left: 5%;
-  top: 55%;
+  left: 5.1%;
+  top: 55.05%;
   opacity: 0.85;
+  display: none;
 }
 
 #overlay4 {
-  width: 450px;
-  height: 580px;
+  width: 448px;
+  height: 578px;
   background-color: #f63700;
   transition: 0.1s ease;
-  z-index: 100;
   position: absolute;
-  left: 55%;
-  top: 60%;
+  left: 55.1%;
+  top: 60.05%;
   opacity: 0.85;
+  display: none;
 }
 
-#article1 img:hover #overlay {
+#article1 img:hover {
   transform: scale(1.1);
 }
 
@@ -72,6 +71,38 @@
   transform: scale(1.1);
 }
 
+#article1:hover + #overlay1 {
+  display: block;
+}
+
+#article2:hover + #overlay2 {
+  display: block;
+}
+
+#article3:hover + #overlay3 {
+  display: block;
+}
+
+#article4:hover + #overlay4 {
+  display: block;
+}
+
+div#article1:hover div#white1 {
+  display: none;
+}
+
+div#article2:hover div#white2 {
+  display: none;
+}
+
+div#article3:hover div#white3 {
+  display: none;
+}
+
+div#article4:hover div#white4 {
+  display: none;
+}
+
 #article1 {
   height: 580px;
   width: 450px;
@@ -81,6 +112,7 @@
   top: 5%;
   transition: all 0.4s ease;
   overflow: hidden;
+  display: block;
 }
 
 #article2 {
@@ -123,6 +155,7 @@
   position: absolute;
   top: 77%;
   text-align: center;
+  display: block;
 }
 
 #white2 {
