@@ -12,3 +12,15 @@ oben genannten Technologien entscheiden und damit eine größere Website bauen.
 
 ## Systemarchitektur
 ![systemarchitektur](images/architecture.jpeg)
+
+## Seite starten
+### Npm downloaden
+npm install 
+
+### Polymer CLI downloaden
+npm install -g polymer-cli
+
+### Website laufen lassen
+polymer serve
+
+Link sollte dann folgendermaßen aussehen: http://127.0.0.1:8081/components/leonie-polymer/website/
