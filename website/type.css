@@ -1,17 +1,89 @@
-#firstLine {
-  font-size: 40px;
+#type {
   font-family: "Courier New", Courier, monospace;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  left: -29%;
   color: white;
 }
 
-p {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
-  color: white;
+.line-1 {
+  width: 24em;
+  margin: 0 auto;
+  margin-top: 32%;
   text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-size: 40px;
 }
-#type {
-  position: absolute;
-  top: 53%;
-  left: 3%;
+
+.line-2 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-size: 18px;
+}
+
+.line-3 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-size: 18px;
+}
+
+.line-4 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-size: 18px;
+}
+
+.anim-typewriter1 {
+  animation: typewriter1 1s steps(44) 1s 1 normal both;
+}
+
+.anim-typewriter2 {
+  animation: typewriter 1s steps(44) 2s 1 normal both;
+}
+
+.anim-typewriter3 {
+  animation: typewriter 1s steps(44) 3s 1 normal both;
+}
+
+.anim-typewriter4 {
+  animation: typewriter 1s steps(44) 4s 1 normal both;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30em;
+  }
+}
+
+@keyframes typewriter1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24em;
+  }
 }

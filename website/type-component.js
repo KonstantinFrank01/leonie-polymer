@@ -5,12 +5,12 @@ class TypeffectComponent extends LitElement {
     return html`
       <link rel="stylesheet" href="type.css" />
       <div id="type">
-        <p id="firstLine">Hallo, mein Name ist Leonie!</p>
-        <p id="secondLine">
-          Ich bin ein digitaler Spracherkennungs-Avatar<br />
-          und wurde von den Schülern<br />
-          der HTl Leonding entwickelt.
+        <p class="line-1 anim-typewriter1">Hallo, mein Name ist Leonie!</p>
+        <p class="line-2 anim-typewriter2">
+          Ich bin ein digitaler Spracherkennungs-Avatar
         </p>
+        <p class="line-3 anim-typewriter3">und wurde von den Schülern</p>
+        <p class="line-4 anim-typewriter4">der HTl Leonding entwickelt.</p>
       </div>
     `;
   }
